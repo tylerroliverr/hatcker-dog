@@ -1,94 +1,68 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+
+      <div className="header">
+        <div className="logo">
+          <h1>HATCKER DOG - $HDOG</h1>
+        </div>
+        <div className="links">
+          <Link href="https://t.me/+BDAF1HXGM8U0N2Y9">
+            <p>TELEGRAM for $HDOG</p>
+          </Link>
+          <Link href="https://x.com/hackerdog_coin">
+            <p>TWITTER/X for $HDOG</p>
+          </Link>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
+      <div className="lore">
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          I am hatcker dog. Me and my friends are hatckers! WOOF!
+          <br></br>
+          Calling all DEGENS! U are early to the first major hatcker dog team. We will hatck the main frame and shoot to the moon!
           </p>
-        </a>
+        </div>
+      <div className="hero">
+        <div className="item">
+          <img src="/main.png"></img>
+          <p>$SHEEEEEEEEESH</p>
+        </div>
+        <div className="item">
+          <img src="/dog2.png"></img>
+          <p>woof</p>
+        </div>
+        <div className="item">
+          <img src="/dog3.png"></img>
+          <p>woof, woof $100000 woof??</p>
+        </div>
+        <div className="item">
+          <img src="/dog4.png"></img>
+          <p>ahhh woof woof woof!!</p>
+        </div>
+        <div className="item">
+          <img src="/dog5.png"></img>
+          <p>$HDOG?? WOOF!!!!!!</p>
+        </div>
+        <div className="item">
+          <img src="/dog6.png"></img>
+          <p>WOOF WOOF!!!!!!!!!!!</p>
+        </div>
+        <div className="item">
+          <img src="/dog7.png"></img>
+          <p>WOOOOOOOF (MOOOON)!</p>
+        </div>
+        <div className="item">
+          <img src="/dog8.png"></img>
+          <p>woof. hatcker woof</p>
+        </div>
+      </div>
+      <div className="end">
+        <p>omg, pls i really need to buy $HDOG rn...</p>
+        <br></br>
+        <Link href="https://pump.fun/AvKo6C5PfDzPMWLvNpJA5AbmqnYQFu1s9ZHLZ9gcMA3g">BUY</Link>
+        <br></br>
       </div>
     </main>
   );
