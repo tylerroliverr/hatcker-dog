@@ -27,7 +27,7 @@ export default function Home() {
       <div className="hero">
         <div className="item">
           <img src="/main.png"></img>
-          <p>$SHEEEEEEEEESH</p>
+          <p>$HDOG</p>
         </div>
         <div className="item">
           <img src="/dog2.png"></img>
