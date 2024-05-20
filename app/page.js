@@ -1,8 +1,11 @@
 import Link from "next/link";
+import localFont from 'next/font/local';
+
+const myFont = localFont({ src: '/ByteBounce.woff' });
 
 export default function Home() {
   return (
-    <main>
+    <main className={myFont.className}>
 
       <div className="header">
         <div className="logo">
